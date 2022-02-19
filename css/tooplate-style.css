@@ -616,7 +616,7 @@ Main components
   position: absolute;
   top: 0;
   left: 18px;
-  height: 330px;
+  height: 1300px;
   width: 4px;
   background: #d7e4ed;
 }
@@ -657,13 +657,15 @@ Main components
     margin-bottom: 0;
   }
 }
-#banklogo {
-    top: 40%;
-    left: 46%;
-    width: 30px;
+
+#bachlor-logo {
+  height: 25px;
 }
 
 .cd-timeline-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -673,13 +675,8 @@ Main components
   box-shadow: 0 0 0 4px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
-  display: block;
-  width: 35px;
-  position: relative;
-  left: 43%;
-  top: 48%;
-  margin-left: -12px;
-  margin-top: -12px;
+  width: 30px;
+  height: 30px;
 }
 
  @media only screen and (max-width: 1170px) {
@@ -691,12 +688,6 @@ Main components
     top: 54%;
     margin-left: -12px;
     margin-top: -12px;
-  }
-
-  #banklogo {
-      top: 43%;
-      left: 46%;
-      width: 31px;
   }
 }
 
@@ -839,10 +830,11 @@ Main components
 
 .cd-timeline-content h2 {
     font-size: 20px;
-    font-size: 1.25rem;
+    font-size: 16px;
+    margin-top: 10px;
   }
   .cd-timeline-content p {
-    font-size: 16px;
+    font-size: 14px!important;
     font-size: 1rem;
   }
   .cd-timeline-content .cd-read-more,
@@ -872,9 +864,9 @@ Main components
     position: absolute;
     width: 100%;
     left: 122%;
-    top: 6px;
+    top: 10px;
     font-size: 16px;
-    font-size: 1rem;
+    font-size: 14px;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
